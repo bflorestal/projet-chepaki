@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Bryan Florestal" />
+    <meta
+      name="description"
+      content="Venez découvrir les dernières actualités sur Chepaki ! Sur ce site, vous pourrez retrouver toutes les informations concernant les nouveaux morceaux composés ou chantés par l'artiste dans les plus brefs délais."
+    />
+    <meta
+      name="keywords"
+      content="musique, chepaki, chepakilecookie, cover, acapella, chiptune, vgm, projet, informations, nouveautés"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accueil - Projet Chepaki</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header-container">
+      <!-- Logo -->
+      <div class="logo">
+        <!-- Lien -->
+        <a href="index.html">
+          <!-- Image -->
+          <img src="img/logo.png" alt="Logo" />
+        </a>
+      </div>
+
+      <!-- Navigation -->
+      <nav>
+        <div class="menu-burger">
+          <div class="icon" onclick="display()">
+            <img src="img/burger.png" alt="Menu" />
+          </div>
+          <div class="menu" id="menu">
+            <a href="index.html">Accueil</a>
+            <a href="page/login-signup.html">Se connecter</a>
+            <a href="page/contact.html">Contact</a>
+          </div>
+        </div>
+        <script type="text/javascript">
+          var menu_burger = document.getElementById("menu");
+          var show = 0;
+
+          function display() {
+            if (show == 0) {
+              menu_burger.style.display = "block";
+              show = 1;
+            } else {
+              menu_burger.style.display = "none";
+              show = 0;
+            }
+          }
+        </script>
+      </nav>
+    </header>
+    <main>
+      <!-- Mise en Avant -->
+      <div class="container">
+        <section class="top">
+          <div>
+            <h1>Projet Chepaki</h1>
+            <h2>Découvrez la dernière cover de l'artiste dans notre article</h2>
+            <a href="page/article.html">Découvrir</a>
+          </div>
+          <div>
+            <img src="img/bad_idea.jpg" alt="image" />
+          </div>
+        </section>
+
+        <!-- Liste des articles -->
+        <section class="list">
+          <div class="articles-ligne">
+            <a href="page/article.html">
+              <article>
+                <img
+                  src="img/bad_idea.jpg"
+                  alt="girl in red - bad idea! [Male cover]"
+                />
+                <h3>girl in red - bad idea! [Male cover]</h3>
+              </article>
+            </a>
+            <a href="page/article.html">
+              <article>
+                <img
+                  src="img/not_yet.jpg"
+                  alt="nope, not giving up yet [Chiptune]"
+                />
+                <h3>nope, not giving up yet [Chiptune]</h3>
+              </article>
+            </a>
+            <a href="page/article.html">
+              <article>
+                <img
+                  src="img/5pm.jpg"
+                  alt="Animal Crossing: New Leaf - 5 PM [Acapella Cover]"
+                />
+                <h3>Animal Crossing: New Leaf - 5 PM [Acapella Cover]</h3>
+              </article>
+            </a>
+          </div>
+          <div class="articles-ligne">
+            <a href="page/article.html">
+              <article>
+                <img
+                  src="img/gymnopedies.jpg"
+                  alt="Gymnopédies No. 1 - K.K. Slider"
+                />
+                <h3>Gymnopédies No. 1 - K.K. Slider</h3>
+              </article>
+            </a>
+            <a href="page/article.html">
+              <article>
+                <img src="img/grave.jpg" alt="grave's grave [VGM]" />
+                <h3>grave's grave [VGM]</h3>
+              </article>
+            </a>
+            <a href="page/article.html">
+              <article>
+                <img
+                  src="img/cowboy.jpg"
+                  alt="Epithet Erased ED 2 - Great at Cowboy [Cover]"
+                />
+                <h3>Epithet Erased ED 2 - Great at Cowboy [Cover]</h3>
+              </article>
+            </a>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="block-par-4">
+          <!-- logo et pitch -->
+          <a href="index.html">
+            <img src="img/logo.png" class="footer-logo" />
+          </a>
+          <p>
+            Bienvenue sur le site Projet Chepaki, la référence pour suivre
+            l'actualité de l'artiste musical Chepaki, auteur de multiples
+            covers, VGM, et bien d'autres !
+          </p>
+        </div>
+        <div class="block-par-4">
+          <!-- navigation -->
+          <h4>Navigation</h4>
+          <nav>
+            <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="page/login-signup.html">Se connecter</a></li>
+              <li><a href="page/article.html">Article</a></li>
+              <li><a href="page/contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="block-par-4">
+          <!-- contact -->
+          <h4>Contactez-nous</h4>
+          <p>
+            10, rue de l'Ail<br />
+            67000 Strasbourg<br />
+            FRANCE<br />
+            <a href="mailto:">bflorest@etud.u-pem.fr</a><br />
+            06 81 27 63 32
+          </p>
+        </div>
+        <div class="block-par-4">
+          <!-- réseaux sociaux -->
+          <h4>Réseaux sociaux</h4>
+          <div class="socials-img">
+            <a href="https://twitter.com/ChepakiLeCookie/" target="_blank"
+              ><img
+                src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/langfr-1280px-Twitter_Bird.svg.png"
+                alt="Twitter"
+            /></a>
+            <a href="https://www.youtube.com/c/chepaki" target="_blank"
+              ><img
+                src="https://upload.wikimedia.org/wikipedia/commons/b/b2/YouTube_logo_%282013-2015%29.png"
+                alt="YouTube"
+            /></a>
+            <a href="https://soundcloud.com/chepakilecookie" target="_blank"
+              ><img
+                src="https://upload.wikimedia.org/wikipedia/fr/thumb/b/bb/SoundCloud_logo.png/1920px-SoundCloud_logo.png"
+                alt="Soundcloud"
+            /></a>
+          </div>
+          <div>
+            <p class="copyright">
+              © Bryan Florestal, 2020 - Tous droits réservés
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

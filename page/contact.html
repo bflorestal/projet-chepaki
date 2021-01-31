@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Bryan Florestal">
+<meta name="description" content="Sur cette page, vous trouverez des informations à propos de nous. Si vous avez rencontré un bug, ou si vous avez besoin de renseignements, n'hésitez pas à nous contacter.">
+<meta name="keywords" content="contact, informations, localisation, chepaki, chepakilecookie">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacter l'équipe du site - Projet Chepaki</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../img/favicon.ico" >
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<div class="header-container">
+		<!-- Logo -->
+		<div class="logo">
+			<!-- Lien -->
+			<a href="../index.html" >
+				<!-- Image -->
+				<img src="../img/logo.png" alt="Logo" />
+			</a>
+		</div>
+	
+		<!-- Navigation -->
+		<nav>
+			<div class="menu-burger">
+				<div class="icon" onclick="display()">
+					<img src="../img/burger.png" alt="Menu">
+				</div>
+				<div class="menu" id="menu">
+					<a href="../index.html">Accueil</a>
+					<a href="login-signup.html">Se connecter</a>
+					<a href="contact.html">Contact</a>
+				</div>
+			</div>
+			<script type="text/javascript">
+				var menu_burger = document.getElementById('menu');
+				var show = 0;
+
+				function display(){
+					if (show == 0){
+						menu_burger.style.display = "block";
+						show = 1;
+					}else{
+						menu_burger.style.display = "none";
+						show = 0;
+					}
+				}
+			</script>
+		</nav>		
+    </header>
+    
+    <main>
+        <div class="container2">
+            <h1>Contact</h1>
+            <section class="a-propos">
+				<div>
+					<h2>À propos</h2>
+					<p>Projet Chepaki est un site créé par Bryan Florestal, un des étudiants de la promotion des MMI 1 de l'IUT de Meaux, composante de l'université Gustave Eiffel, anciennement Université Paris-Est Marne-la-Vallée. C'est grâce à ce webmaster que le site est mis à jour.</p>
+					<p>Notre équipe utilise les informations sur l'artiste Chepaki sur les réseaux sociaux, afin de produire le contenu du site.</p>
+				</div>
+				<div>
+					<form class="contact">
+						<h2>Nous contacter</h2>
+						<fieldset>
+							<label for="contact-email">E-mail</label>
+							<input type="text" id="contact-email">
+					</fieldset>
+							<fieldset>
+							<label for="contact-name">Nom</label>
+							<input type="text" id="contact-name">
+						</fieldset>
+						<fieldset>
+							<label for="contact-msg">Message</label>
+							<textarea name="contact-msg" id="contact-msg" cols="20" rows="5" placeholder="Vous avez rencontré un bug ? Besoin de renseignements ? Ecrivez-nous !"></textarea>
+						</fieldset>
+						<button type="submit">Envoyer</button>
+					</form>
+				
+					<iframe class="carte" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10479.658750497656!2d2.8779317!3d48.9551103!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x143615de96b042c5!2sIUT%20De%20Meaux%20Universit%C3%A9%20Paris-Est%20Marne-la-Vall%C3%A9e!5e0!3m2!1sfr!2sfr!4v1591393991849!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					
+					<h2>Nos partenaires</h2>
+					<span>Site partenaire : <a href="https://site-de-vente-heim.000webhostapp.com/index.html" target="_blank">Heim</a></span></br>
+					<span>Créatrice du logo : <a href="https://twitter.com/Cyobem" target="_blank">@Cyobem</a></span>
+				</div>
+
+            </section>
+
+        </div> <!-- Fin du "container" -->
+
+	</main>
+
+    <footer>
+		<div class="footer-container">
+		<div class="block-par-4">
+			<!-- logo et pitch -->
+			<a href="../index.html">
+				<img src="../img/logo.png" class="footer-logo">
+			</a>
+			<p>
+				Bienvenue sur le site Projet Chepaki, la référence pour suivre l'actualité de l'artiste musical Chepaki, auteur de multiples covers, VGM, et bien d'autres ! 
+			</p>
+		</div>
+		<div class="block-par-4">
+			<!-- navigation -->
+			<h4>Navigation</h4>
+			<nav>
+				<ul>
+					<li><a href="../index.html">Accueil</a></li>
+					<li><a href="login-signup.html">Se connecter</a></li>
+					<li><a href="article.html">Article</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="block-par-4">
+			<!-- contact -->
+			<h4>Contactez-nous</h4>
+			<p>
+				10, rue de l'Ail</br>
+				67000 Strasbourg</br>
+				FRANCE</br>
+				<a href="mailto:">bflorest@etud.u-pem.fr</a></br>
+				06 81 27 63 32
+			</p>
+		</div>
+		<div class="block-par-4">
+			<!-- réseaux sociaux -->
+			<h4>Réseaux sociaux</h4>
+			<div class="socials-img">
+				<a href="https://twitter.com/ChepakiLeCookie/" target="_blank" ><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/langfr-1280px-Twitter_Bird.svg.png" alt="Twitter" ></a>
+				<a href="https://www.youtube.com/c/chepaki" target="_blank" ><img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/YouTube_logo_%282013-2015%29.png" alt="YouTube" ></a>
+				<a href="https://soundcloud.com/chepakilecookie" target="_blank" ><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/b/bb/SoundCloud_logo.png/1920px-SoundCloud_logo.png" alt="Soundcloud" ></a>
+			</div>
+			<div>
+				<p class="copyright">© Bryan Florestal, 2020 - Tous droits réservés</p>
+			</div>
+		</div>
+		</div>		
+	</footer>
+	</body>
+	
+</html>
