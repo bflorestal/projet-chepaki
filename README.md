@@ -1,6 +1,6 @@
 # projet-chepaki
 
-[![Logo](img/logo.png)]
+<img src='img/logo.png' title='Logo' width='' alt='Logo' />
 
 ## Sujet :
 
